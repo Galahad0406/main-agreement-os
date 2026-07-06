@@ -571,7 +571,7 @@ export default function AfterschoolContract({ onBack }: { onBack: () => void }) 
             className="flex items-center gap-1 text-[#0071E3] text-[15px] font-medium hover:opacity-70 transition-opacity"
           >
             <ChevronLeft size={18} />
-            계약 관리 포털
+            Registration Hub
           </button>
         </div>
       </div>
