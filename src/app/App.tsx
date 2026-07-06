@@ -5,8 +5,8 @@ import AfterschoolContract from "./AfterschoolContract";
 const contracts = [
   {
     id: 1,
-    title: "Afterschool",
-    subtitle: "방과후 수업 계약서",
+    title: "Dynamic Afterschool",
+    subtitle: "Afterschool Program",
     icon: GraduationCap,
     count: 0,
     color: "#0071e3",
@@ -16,7 +16,6 @@ const contracts = [
   {
     id: 2,
     title: "TKD",
-    subtitle: "태권도 수업 계약서",
     icon: Shield,
     count: 0,
     color: "#30a852",
@@ -26,7 +25,6 @@ const contracts = [
   {
     id: 3,
     title: "Trial",
-    subtitle: "체험 수업 계약서",
     icon: Sparkles,
     count: 0,
     color: "#ff9500",
@@ -35,8 +33,7 @@ const contracts = [
   },
   {
     id: 6,
-    title: "정보 변경",
-    subtitle: "계약자 정보 업데이트",
+    title: "Information change",
     icon: UserCog,
     count: 2,
     color: "#6e6e73",
@@ -46,7 +43,6 @@ const contracts = [
   {
     id: 4,
     title: "Blank",
-    subtitle: "빈 양식 계약서",
     icon: FileQuestion,
     count: 0,
     color: "#af52de",
@@ -55,8 +51,7 @@ const contracts = [
   },
   {
     id: 5,
-    title: "페이먼트",
-    subtitle: "결제 및 정산 관련 문서",
+    title: "Payment change",
     icon: CreditCard,
     count: 5,
     color: "#ff3b30",
@@ -83,7 +78,7 @@ export default function App() {
             <div className="w-7 h-7 rounded-lg bg-primary flex items-center justify-center">
               <FileText size={14} className="text-white" />
             </div>
-            <span className="text-sm font-semibold text-foreground tracking-tight">계약 관리 포털</span>
+            <span className="text-sm font-semibold text-foreground tracking-tight">Applicatoin portal</span>
           </div>
           <div className="flex items-center gap-2">
             <button className="w-8 h-8 rounded-full flex items-center justify-center text-muted-foreground hover:bg-muted transition-colors duration-150">
@@ -94,7 +89,7 @@ export default function App() {
               <span className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full bg-primary" />
             </button>
             <div className="w-7 h-7 rounded-full bg-primary text-white text-xs font-semibold flex items-center justify-center ml-1">
-              김
+              Dynamic School
             </div>
           </div>
         </div>
@@ -105,10 +100,10 @@ export default function App() {
         <header className="mb-10">
           <p className="text-xs font-medium text-primary uppercase tracking-widest mb-2">Contract Hub</p>
           <h1 className="text-4xl font-bold text-foreground tracking-tight leading-tight mb-2">
-            계약서 관리
+            Dynamic From Hub
           </h1>
           <p className="text-base text-muted-foreground font-normal">
-            모든 계약 문서를 한 곳에서 쉽게 관리하세요.
+            Pleaes click link.
           </p>
         </header>
 
